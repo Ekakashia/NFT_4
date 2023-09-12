@@ -1,0 +1,367 @@
+@font-face{
+    font-family: Work Sans;
+    src: url(./WorkSans-Regular.ttf);
+    font-family: Space Mono;
+    src: url(./SpaceMono-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: hsla(0, 0%, 17%, 1) !important;
+}
+.a2{
+    color: #FFF !important;
+    font-family: Work Sans !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 140% !important; /* 22.4px */
+    padding: 20px 40px !important;
+}
+.navbtn{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF); 
+    width: 152px;
+    height: 60px;
+    border: 1px solid #A259FF;
+}
+.fluid1{
+    background-image: url(./Image\ PlaceHolder\ \(12\).png);
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fluidmob{
+    background-image: url(./Image\ PlaceHolder\ \(13\).png);
+    height: 250px;
+    width: 375PX;
+}
+.avatar{
+   margin-top: -70px;
+}
+.div1{
+    width: 1050px !important;
+}
+.h2div1{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 56.1px */
+    text-transform: capitalize;
+}
+.btn1{
+    width: 186px;
+    height: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 20px;
+    background-color: hsla(266, 100%, 67%, 1);
+    border: none;
+    margin-left: 80px;
+}
+.btn2{
+    width: 145px;
+    height: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    border-radius: 20px;
+    border: 2px solid hsla(266, 100%, 67%, 1);
+    background-color: hsla(0, 0%, 17%, 1);
+    margin-left: 30px;
+}
+.h4numbers{
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+.pnumbers{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.p2{
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.fluid3{
+    border-top: 1px solid  hsla(0, 0%, 23%, 1);
+    height: 73px;
+}
+.p3{
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+.round{
+    width: 50px;
+    height: 32px;
+    background-color: hsla(60, 0%, 52%, 1);
+    border-radius: 20px;
+}
+.pround{
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.p4{
+    color: var(--caption-label-text, #858584);
+    font-family: Work Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+.round1{
+    width: 40px;
+    height: 32px;
+    background-color: hsla(0, 0%, 23%, 1);
+    border-radius: 20px;
+}
+.round2{
+    width: 30px;
+    height: 32px;
+    background-color: hsla(0, 0%, 23%, 1);
+    border-radius: 20px;
+}
+.fluid4{
+    background-color: hsla(0, 0%, 23%, 1);
+    height: 1627px;
+    border-bottom: 2px solid  hsla(0, 0%, 17%, 1);
+}
+.cardsdiv, .dblock2, .dblock3, .dblock4, .last{
+    width: 1050px !important;
+}
+.card4{
+    width: 330px !important;
+    height: 469px !important;
+    background: #3B3B3B !important;
+    border-radius: 20px !important;
+    background-color: hsla(0, 0%, 17%, 1) !important;
+    border: none !important;
+}
+.pcard4{
+    color: #858584;
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.h6card4{
+    color: var(--white, #FFF) !important;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.h5card{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+}
+.pcard{
+    color: #FFF;
+    font-family:"Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.fluid5{
+    background-color: hsla(0, 0%, 23%, 1);
+    height: 330px;
+}
+.pfooter{
+    color: #CCC;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+ }
+ .dfooter{
+    border-bottom: 1px solid hsla(60, 0%, 52%, 1) !important;
+    width: 1050px !important;
+ }
+ .afooter{
+    font-family: Space Mono !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    line-height: 35px !important;
+    letter-spacing: 0em !important;
+    text-decoration: none !important;
+    color: #FFF !important;
+}
+.plast{
+    color: #CCC;
+    font-family: "Work Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.form-control{ 
+    width: 215px !important;
+    height: 60px !important;
+    background-color: hsla(0, 0%, 100%, 1) !important;
+    border: 1px solid hsla(0, 0%, 100%, 1) !important;
+    color: var(--background, #2B2B2B) !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 140% !important; /* 22.4px */
+    border-radius: 20px !important;
+}
+.btninp{
+    color: #FFF !important;
+    text-align: center !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 140% !important; /* 22.4px */
+    width: 180px !important;
+    height: 60px !important;
+    background-color: hsla(266, 100%, 67%, 1) !important;
+    border: 1px solid hsla(266, 100%, 67%, 1) !important;
+    border-radius: 20px !important;
+}
+.btninp1{
+    color: #FFF !important;
+    text-align: center !important;
+    font-family: "Work Sans" !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 140% !important; /* 22.4px */
+    width: 315px !important;
+    height: 46px !important;
+    background-color: hsla(266, 100%, 67%, 1) !important;
+    border: 1px solid hsla(266, 100%, 67%, 1) !important;
+    border-radius: 20px !important;
+}
+.input-group{
+    border-radius: 20px !important;
+    width: 425px !important;
+    height: 60px !important;
+    background-color: hsla(0, 0%, 100%, 1) !important;
+ }
+@media screen and (max-width:768px) {
+    .avatar{
+      margin-top: -60px;
+      margin-left: 80px;
+    }
+    .div1, .cardsdiv, .dblock2, .dblock3, .dblock4, .last{
+        width: 315px !important;
+    }
+    .h2div1{
+        font-size: 28px;
+        line-height: 39.2px;
+    }
+    .btn1{
+        margin-left: 0;
+        width: 315px;
+    }
+    .btn2{
+        margin-top: 20px;
+        width: 315px;
+        margin-left: 0 !important;
+    }
+    .h4numbers{
+        font-size: 22px;
+        line-height: 35.2px;
+    }
+    .pnumbers, .p2, .p3, .p4{
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+    .round, .round1, .round2{
+        display: none;
+    }
+    .fluid3{
+        height: 65px;
+    }
+    .cardsdiv{
+        width: 315px;
+    }
+    .h5card{
+        font-size: 16px !important;
+        line-height: 22.4px !important;
+    }
+       .card4{
+        width: 315px !important;
+        height: 430px !important;
+        margin-left: 0 !important;
+    }
+       .pcard{
+        font-size: 12px !important;
+        line-height: 14.8px !important;
+    }
+    .fluid4{
+        height: 1420px;
+        width: 375px !important;
+    }
+    .form-control, .btninp1{
+        width: 315px !important;
+        height: 46px !important;
+    }
+       .fluid5{
+        height: 876px !important;
+    }
+       .afooter{
+        font-size: 20px !important;
+    }
+       .dfooter{
+        height: 820px !important;
+        width: 315px !important;
+    }
+}
